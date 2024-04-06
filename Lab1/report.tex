@@ -190,50 +190,56 @@
 
     \addcontentsline{toc}{section}{Обработка данных}    
     \section*{Обработка данных}
-        \hspace*{4mm}В соответствии с формулой (2) были вычислены значения осмотического давления
-        в течение эксперимента. \\
+        \addcontentsline{toc}{subsection}{Вычисление осмотического потока и его временной зависимости}
+        \subsection*{Вычисление осмотического потока и его временной зависимости}
 
-        Зависимость осмотического давления от времени отражена на графиках ниже.
+            \hspace*{4mm}В соответствии с формулой (2) были вычислены значения осмотического давления
+            в течение эксперимента. \\
+
+            Зависимость осмотического давления от времени отражена на графиках ниже.
+            
+            Для первого сосуда:
+            \vspace*{4mm}
+
+            \begin{tikzpicture}
+                \begin{axis}[scale only axis,
+                        xlabel=$t$,
+                        ylabel=$P$,
+                        xmax=35,
+                        ymin=0.972910, ymax=0.972950,
+                        xtick={0,5,...,30},
+                        ytick={0.972910,0.972914,...,0.972945},
+                        axis lines=middle,
+                        grid=both
+                    ]
+                    \addplot[only marks] table [col sep=comma] {./data/pressure1.csv};
+                    \addplot[color=gray] coordinates {(0,0.972921)(33,0.972941)};
+                    \addlegendentry{$P(t) = 6.234285\cdot10^{-7}t+0.972921$}
+                \end{axis}
+            \end{tikzpicture}
+            \newpage
+            Для второго сосуда:
+            \vspace*{4mm}
+
+            \begin{tikzpicture}
+                \begin{axis}[scale only axis,
+                        xlabel=$t$,
+                        ylabel=$P$,
+                        xmax=35,
+                        ymin=1.945680, ymax=1.945847,
+                        xtick={0,5,...,30},
+                        ytick={1.945680,1.945700,...,1.945847},
+                        axis lines=middle,
+                        grid=both
+                    ]
+                    \addplot[only marks] table [col sep=comma] {./data/pressure2.csv};
+                    \addplot[color=gray] coordinates {(0,1.945853)(33,1.945674)};
+                    \addlegendentry{$P(t) = -5.402928\cdot10^{-6}t+1.945853$}
+                \end{axis}
+            \end{tikzpicture}
         
-        Для первого сосуда:
-        \vspace*{4mm}
-
-        \begin{tikzpicture}
-            \begin{axis}[scale only axis,
-                    xlabel=$t$,
-                    ylabel=$P$,
-                    xmax=35,
-                    ymin=0.972910, ymax=0.972950,
-                    xtick={0,5,...,30},
-                    ytick={0.972910,0.972914,...,0.972945},
-                    axis lines=middle,
-                    grid=both
-                ]
-                \addplot[only marks] table [col sep=comma] {./data/pressure1.csv};
-                \addplot[color=gray] coordinates {(0,0.972921)(33,0.972941)};
-                \addlegendentry{$P(t) = 6.234285\cdot10^{-7}t+0.972921$}
-            \end{axis}
-        \end{tikzpicture}
-        \newpage
-        Для второго сосуда:
-        \vspace*{4mm}
-
-        \begin{tikzpicture}
-            \begin{axis}[scale only axis,
-                    xlabel=$t$,
-                    ylabel=$P$,
-                    xmax=35,
-                    ymin=1.945680, ymax=1.945847,
-                    xtick={0,5,...,30},
-                    ytick={1.945680,1.945700,...,1.945847},
-                    axis lines=middle,
-                    grid=both
-                ]
-                \addplot[only marks] table [col sep=comma] {./data/pressure2.csv};
-                \addplot[color=gray] coordinates {(0,1.945853)(33,1.945674)};
-                \addlegendentry{$P(t) = -5.402928\cdot10^{-6}t+1.945853$}
-            \end{axis}
-        \end{tikzpicture}
+        \addcontentsline{toc}{subsection}{Вычисление осмотического потока}
+        \subsection*{Вычисление осмотического потока}
 
     \addcontentsline{toc}{section}{Результаты и Выводы}
     \section*{Результаты и Выводы}
