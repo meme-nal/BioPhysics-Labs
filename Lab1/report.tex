@@ -59,25 +59,20 @@
             \hspace*{4mm}\textit{Осмотическое давление} можно определить как минимальное давление, которое необходимо
             приложить к раствору, чтобы остановить поток молекул растворителя через
             полупроницаемую мембрану (осмос). Это коллигативное свойство, которое
-            зависит от концентрации частиц растворенного вещества в растворе. Поэтому, по
-            Вант-Гоффу, для вычисления осмотического давления можно воспользоваться
-            уравнением Менделеева-Клапейрона:
+            зависит от концентрации частиц растворенного вещества в растворе.
+            Для вычисления осмотического давления можно воспользоваться уравнением Вант-Гоффа:
 
             \begin{equation}
-                P = \frac{m}{MV} \* RT = CRT    
+                \pi = iCRT    
             \end{equation}
             
-            где C – молярная концентрация растворенного вещества в растворе, R –
-            универсальная газовая постоянная, Т – температура, m – масса растворенного
-            вещества, V – объем раствора, M – молярная масса растворенного вещества. \\
+            где $\pi$ – осмотическое давление,
+            $i$ - изотонический коэффициент,
+            $C$ - концентрация растворённого вещества,
+            $R$ – универсальная газовая постоянная,
+            $T$ – температура вещества. \\
 
-            с учётом изотонического коэффициента: 
-
-            \begin{equation}
-                P = iCRT = i\frac{m}{MV}RT
-            \end{equation}
-
-            где для воды $i = 1.015$
+            Для воды $i = 1.015$
 
         \addcontentsline{toc}{subsection}{Осмотический поток}
         \subsection*{Осмотический поток}
@@ -155,12 +150,12 @@
 
             \begin{tikzpicture}
                 \begin{axis}[scale only axis,
-                        ylabel=$h$,
-                        xlabel=$t$,
+                        ylabel = {$h$, см},
+                        xlabel = {$t$, с},
                         xmax=35,
                         ymin=15, ymax=17,
                         xtick={0,5,...,30},
-                        ytick={15.2,15.4,...,16.6},
+                        ytick={15.2,15.6,...,16.6},
                         axis lines=middle,
                         grid=both   
                     ] 
@@ -174,8 +169,8 @@
 
             \begin{tikzpicture}
                 \begin{axis}[scale only axis,
-                        ylabel=$h$,
-                        xlabel=$t$,
+                        ylabel = {$h$, см},
+                        xlabel = {$t$, с},
                         xmax=35,
                         ymin=17, ymax=21,
                         xtick={0,5,...,30},
@@ -193,28 +188,33 @@
         \addcontentsline{toc}{subsection}{Вычисление осмотического давления и его временной зависимости}
         \subsection*{Вычисление осмотического давления и его временной зависимости}
 
-            \hspace*{4mm}В соответствии с формулой (2) были вычислены значения осмотического давления
-            в течение эксперимента. \\
+            \hspace*{4mm}В соответствии с формулой (1) могут быть вычислены значения осмотического давления в сосудах: \\
 
-            Зависимость осмотического давления от времени отражена на графиках ниже.
+            \begin{equation}
+                \pi = i\frac{m}{M}\frac{RT}{V_{0} \pm \Delta{V}}
+            \end{equation}
+
+            Где $\Delta{V}$ - объём жидкости, которая перетекла из сосуда в сосуд. \\
+            \\
+            Зависимость осмотического давления от времени отражена на графиках ниже.\\
             
             Для первого сосуда:
             \vspace*{4mm}
 
             \begin{tikzpicture}
                 \begin{axis}[scale only axis,
-                        xlabel=$t$,
-                        ylabel=$P$,
+                        xlabel = {$t$, с},
+                        ylabel = {$P$, кПа},
                         xmax=35,
-                        ymin=0.972910, ymax=0.972950,
+                        ymin=1518.10, ymax=1518.60,
                         xtick={0,5,...,30},
-                        ytick={0.972910,0.972914,...,0.972945},
+                        ytick={1518.00,1518.05,...,1518.55},
                         axis lines=middle,
                         grid=both
                     ]
                     \addplot[only marks] table [col sep=comma] {./data/pressure1.csv};
-                    \addplot[color=gray] coordinates {(0,0.972921)(33,0.972941)};
-                    \addlegendentry{$P(t) = 6.234285\cdot10^{-7}t+0.972921$}
+                    \addplot[smooth, color=gray] coordinates {(0,1518.2)(30,1518.4919)};
+                    \addlegendentry{$P(t) = 9.73\cdot10^{-3}t+1518.2$}
                 \end{axis}
             \end{tikzpicture}
             \newpage
@@ -223,26 +223,60 @@
 
             \begin{tikzpicture}
                 \begin{axis}[scale only axis,
-                        xlabel=$t$,
-                        ylabel=$P$,
+                        xlabel = {$t$, с},
+                        ylabel = {$P$, кПа},
                         xmax=35,
-                        ymin=1.945680, ymax=1.945847,
+                        ymin=3033.92, ymax=3037.00,
                         xtick={0,5,...,30},
-                        ytick={1.945680,1.945700,...,1.945847},
+                        ytick={3033.90,3034.30,...,3036.47},
                         axis lines=middle,
                         grid=both
                     ]
                     \addplot[only marks] table [col sep=comma] {./data/pressure2.csv};
-                    \addplot[color=gray] coordinates {(0,1.945853)(33,1.945674)};
-                    \addlegendentry{$P(t) = -5.402928\cdot10^{-6}t+1.945853$}
+                    \addplot[smooth, color=gray] coordinates {(0,3036.65)(30,3034.121)};
+                    \addlegendentry{$P(t) = -8.43\cdot10^{-2}t+3036.65$}
                 \end{axis}
             \end{tikzpicture}
         
+        \newpage
         \addcontentsline{toc}{subsection}{Вычисление осмотического потока}
         \subsection*{Вычисление осмотического потока}
 
+        В соответствии с формулой (2) величина осмотического потока может быть приблизительно вычислена следующим образом:
+
+        \begin{equation}
+            J = -D\frac{|\Delta{C}|}{\Delta{x}} = -D\frac{|C_{1} - C_{2}|}{\Delta{x}}
+        \end{equation}
+
+        \vspace*{4mm}
+        Значение коэффициента диффузии для воды: $D \approx 10^{-9}$
+
+        Была установлена зависимость осмотического потока с течением времени:
+        \vspace*{4mm}
+
+        \begin{tikzpicture}
+            \begin{axis}[scale only axis,
+                    xlabel = {$t$, с},
+                    ylabel = {$|J|$, моль/м$м^2$с},
+                    xmax=35,
+                    ymin=997.5, ymax=1000.2,
+                    xtick={0,5,...,30},
+                    ytick={998.0,998.5,...,1000.0},
+                    axis lines=middle,
+                    grid=both
+                ]
+                \addplot[only marks] table [col sep=comma] {./flow.csv};
+                \addplot[smooth, color=gray] coordinates {(0,1000)(33,997.954)};
+                \addlegendentry{$|J(t)| = -6.2\cdot10^{-2}t+1000$}
+            \end{axis}
+        \end{tikzpicture}
+
+    \newpage
     \addcontentsline{toc}{section}{Результаты и Выводы}
     \section*{Результаты и Выводы}
 
+    \hspace*{4mm}В результате проведённых опытов по изучению осмотических процессов с медным купоросом
+    были вычислены экспериментально осмотические давления для обоих сосудов, а также осмотический поток
+    через полупроницаемую мембрану.
 
 \end{document}
