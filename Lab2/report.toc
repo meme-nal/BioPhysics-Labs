@@ -8,5 +8,6 @@
 \contentsline {subsection}{Спирометрия и спирография}{8}{}%
 \contentsline {section}{Ход работы}{8}{}%
 \contentsline {subsection}{Оборудование}{8}{}%
-\contentsline {section}{Обработка данных}{9}{}%
-\contentsline {section}{Результаты и выводы}{10}{}%
+\contentsline {subsection}{Наблюдения}{9}{}%
+\contentsline {section}{Обработка данных}{10}{}%
+\contentsline {section}{Результаты и выводы}{11}{}%

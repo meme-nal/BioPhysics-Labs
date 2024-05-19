@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716151979.42897 "/home/m_m/BioPhysics-Labs/Lab2/report.tex" "report.pdf" "report" 1716151980.57542 0
+["pdflatex"] 1716156264.64724 "/home/m_m/BioPhysics-Labs/Lab2/report.tex" "report.pdf" "report" 1716156265.79568 0
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labi1000.tfm" 1712178268.29764 3596 2ca4e809f721bd2749b4d599c6e51cbe ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1000.tfm" 1711655125.18976 3300 6abb8e321227ead2a8e929e5abc72bd3 ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1711654649.50853 3308 eee81981029f67083258db36df06e523 ""
@@ -11,7 +11,7 @@
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1711653161.91658 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1711652999.74184 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/lati1000.tfm" 1711655363.42988 3528 defd551e32c4af414f9b54b8101bfa9b ""
-  "/home/m_m/BioPhysics-Labs/Lab2/report.tex" 1716151979.2223 19284 47de2ceda74313f746bea97a89fa23cc ""
+  "/home/m_m/BioPhysics-Labs/Lab2/report.tex" 1716156264.44143 20862 a17da59e21196d8d7cd4b80da1d958d3 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1713199481 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713199481 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1713199481 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -199,13 +199,14 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1713956987.80157 5314505 c65d55cfca6e0ce870072f996b6d0b8f ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1713956937 7192553 12dc35548ae2851fb7900a203aaf11b8 ""
   "data/Альвеолы.png" 1716148847.3692 244577 700cb4e97da24fe8aa4d840336eb90f8 ""
+  "data/ЖЕЛ.jpg" 1716155171.36364 782271 3124c5e8c67e7e6546dcf6e624cbab65 ""
   "data/Инспирация_Экспирация.png" 1716150275.75928 287621 1ed288a50c21588aaebc51e08b73b602 ""
   "data/Плевра.png" 1716150954.3675 137707 589f1d2f84e656dd8885db1c1325fe17 ""
   "data/Система_органов.png" 1716148423.37827 447701 98db3ce8fcc39b7d6c6438806df47c9a ""
   "data/Спирометр.png" 1716151923.36421 75309 39efd87da7b6936ff09ce49231b84db4 ""
-  "report.aux" 1716151980.48632 1929 e3ac573e369c2aa6fc4055a265fbe67e "pdflatex"
-  "report.tex" 1716151979.2223 19284 47de2ceda74313f746bea97a89fa23cc ""
-  "report.toc" 1716151980.48732 764 2e955365148710a33835e3b2371a1630 "pdflatex"
+  "report.aux" 1716156265.70243 2348 00abf2b56c649d27cbe7b91f925f45bc "pdflatex"
+  "report.tex" 1716156264.44143 20862 a17da59e21196d8d7cd4b80da1d958d3 ""
+  "report.toc" 1716156265.70343 820 510a5d74950b49eacbf42f1ae6c41ac7 "pdflatex"
   (generated)
   "report.aux"
   "report.log"

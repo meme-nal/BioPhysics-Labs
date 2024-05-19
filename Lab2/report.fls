@@ -329,6 +329,10 @@ INPUT ./data/Спирометр.png
 INPUT ./data/Спирометр.png
 INPUT ./data/Спирометр.png
 INPUT ./data/Спирометр.png
+INPUT ./data/ЖЕЛ.jpg
+INPUT ./data/ЖЕЛ.jpg
+INPUT ./data/ЖЕЛ.jpg
+INPUT ./data/ЖЕЛ.jpg
 INPUT report.aux
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb
