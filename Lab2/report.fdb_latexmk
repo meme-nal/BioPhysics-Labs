@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716205530.92796 "/home/m_m/BioPhysics-Labs/Lab2/report.tex" "report.pdf" "report" 1716205532.17421 0
+["pdflatex"] 1716206054.00691 "/home/m_m/BioPhysics-Labs/Lab2/report.tex" "report.pdf" "report" 1716206055.24182 0
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labi1000.tfm" 1712178268.29764 3596 2ca4e809f721bd2749b4d599c6e51cbe ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1000.tfm" 1711655125.18976 3300 6abb8e321227ead2a8e929e5abc72bd3 ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1200.tfm" 1711654649.50853 3308 eee81981029f67083258db36df06e523 ""
@@ -11,7 +11,7 @@
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1440.tfm" 1711653161.91658 3256 3daaa33cf35cf3f354983aa3214ecd7f ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1711652999.74184 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/m_m/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/lati1000.tfm" 1711655363.42988 3528 defd551e32c4af414f9b54b8101bfa9b ""
-  "/home/m_m/BioPhysics-Labs/Lab2/report.tex" 1716205530.6893 29267 4549cf4d297fc1983cf07425a1d5c71e ""
+  "/home/m_m/BioPhysics-Labs/Lab2/report.tex" 1716206053.75555 29275 450a25515352c6d3f12ccc46c4cda783 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1713199481 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1713199481 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1713199481 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -201,9 +201,9 @@
   "data/Система_органов.png" 1716148423.37827 447701 98db3ce8fcc39b7d6c6438806df47c9a ""
   "data/СоотношенияСпирограммы.png" 1716201749.60015 122877 4c7638a1be60bf5cb904ba2021ba1f98 ""
   "data/Спирометр.png" 1716151923.36421 75309 39efd87da7b6936ff09ce49231b84db4 ""
-  "report.aux" 1716205532.07633 2680 2f34515ec776a76582b3542ceae1d848 "pdflatex"
-  "report.tex" 1716205530.6893 29267 4549cf4d297fc1983cf07425a1d5c71e ""
-  "report.toc" 1716205532.07733 820 ee016688cbd69e4ae6e72cf21bcf9a00 "pdflatex"
+  "report.aux" 1716206055.14755 2680 2f34515ec776a76582b3542ceae1d848 "pdflatex"
+  "report.tex" 1716206053.75555 29275 450a25515352c6d3f12ccc46c4cda783 ""
+  "report.toc" 1716206055.14855 820 ee016688cbd69e4ae6e72cf21bcf9a00 "pdflatex"
   (generated)
   "report.aux"
   "report.log"
