@@ -1,0 +1,8 @@
+\babel@toc {russian}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{Введение}{2}{}%
+\contentsline {subsection}{Физиология нервной системы человека}{2}{}%
+\contentsline {subsection}{Передача информации в нервной системе}{6}{}%
+\contentsline {section}{Ход работы}{8}{}%
+\contentsline {subsection}{Оборудование}{8}{}%
+\contentsline {section}{Результаты и выводы}{8}{}%
