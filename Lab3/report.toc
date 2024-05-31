@@ -5,4 +5,6 @@
 \contentsline {subsection}{Передача информации в нервной системе}{6}{}%
 \contentsline {section}{Ход работы}{8}{}%
 \contentsline {subsection}{Оборудование}{8}{}%
-\contentsline {section}{Результаты и выводы}{8}{}%
+\contentsline {subsection}{Методы и результаты}{8}{}%
+\contentsline {subsubsection}{Вычисление СРВ}{10}{}%
+\contentsline {section}{Выводы}{11}{}%

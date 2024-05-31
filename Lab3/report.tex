@@ -10,6 +10,12 @@
 
 \renewcommand{\labelitemii}{$\circ$}
 
+\usepackage{array}
+\usepackage[table]{xcolor}
+\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.5} % Cell height scaling
+\setlength{\arrayrulewidth}{0.5mm} % Table border thickness
+
 \title{Исследование функций нервной системы на базе нейростимуляции}
 \author{Нестеров И.Д., Шацких И.М., Щеглюк А.}
 \date{}
@@ -238,12 +244,120 @@
         \addcontentsline{toc}{subsection}{Оборудование}
         \subsection*{Оборудование}
 
+            \hspace*{4mm} В ходе лабораторной работы использовался нейростимулятор. Он состоял из регистрирующего
+            и стимулирующего электродов. Также вспомогательно использовались спиртосодержащие салфетки
+            для очистки электродов и нивелирования жировых выделений, увеличивающих импеданс, а также 
+            электролитный гель.
 
+        \addcontentsline{toc}{subsection}{Методы и результаты}
+        \subsection*{Методы и результаты}
 
-    \addcontentsline{toc}{section}{Результаты и выводы}
-    \section*{Результаты и выводы}
+            \hspace*{4mm} Во время проведения эксперимента регистрирующий электрод располагался на фаланге среднего пальца правой руки.
+            Стимуляция производилась последовательно в трёх местах: запястье (рис. 5), локтевой сгиб (рис. 6) и нижняя треть плеча (рис. 7).
 
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=\textwidth]{data/1,2.jpg}
+                \caption{Ответный сигнал на стимуляцию запястья (Сверху).}
+            \end{figure}
 
+            \begin{center}
+                Параметры стимуляции:    
+            \end{center}
+            
+            \begin{center}
+                \begin{tabular}{|l|l|}
+                    \hline
+                    Точка стимуляции & Запястье \\ \hline
+                    Латентность, мс & 2.0 \\ \hline
+                    Расстояние, мм & 135 \\ \hline
+                    Амплитуда, мВ & 0.05 \\ \hline
+                    Длительность, мс & 1.1  \\ \hline
+                \end{tabular}
+            \end{center}
+            \newpage
+
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=\textwidth]{data/1,2.jpg}
+                \caption{Ответный сигнал на стимуляцию нижней трети плеча (Снизу).}
+            \end{figure}
+
+            \begin{center}
+                Параметры стимуляции:    
+            \end{center}
+
+            \begin{center}
+                \begin{tabular}{|l|l|}
+                    \hline
+                    Точка стимуляции & Нижняя треть плеча \\ \hline
+                    Латентность, мс & 8.4 \\ \hline
+                    Расстояние, мм & 70 \\ \hline
+                    Амплитуда, мВ & 0.04 \\ \hline
+                    Длительность, мс & 3.3  \\ \hline
+                \end{tabular}
+            \end{center}
+            \newpage
+
+            \begin{figure}[h]
+                \centering
+                \includegraphics[width=\textwidth]{data/3.jpg}
+                \caption{Ответный сигнал на стимуляцию локтевого сгиба.}
+            \end{figure}
+
+            \begin{center}
+                Параметры стимуляции:    
+            \end{center}
+
+            \begin{center}
+                \begin{tabular}{|l|l|}
+                    \hline
+                    Точка стимуляции & Локтевой сгиб \\ \hline
+                    Латентность, мс & 5.2 \\ \hline
+                    Расстояние, мм & 233 \\ \hline
+                    Амплитуда, мВ & 0.02 \\ \hline
+                    Длительность, мс & 1.6  \\ \hline
+                \end{tabular}
+            \end{center}
+            
+                \addcontentsline{toc}{subsubsection}{Вычисление СРВ}
+                \subsubsection*{Вычисление СРВ}
+
+                    \hspace*{4mm} При помощи полученных данных может быть вычислена \textit{скорость распространения возбуждения} (СРВ):
+
+                    \begin{equation}
+                        CPB = \frac{D_{P} - D_{D}}{T_{P} - T_{D}}
+                    \end{equation}
+
+                    Где $D_{P} - D_{D}$ - разность длин между проксильмальной и дистальной точками стимуляции относительно
+                    регистрирующего электрода. $T_{P} - T_{D}$ - разность латентностей при стимуляции проксильмальной и
+                    дистальной точек соответственно.
+
+                    Найдём 3 величины СРВ:
+
+                    \begin{itemize}
+                        \item СРВ{з-л} - между запястьем и локтевым сгибом.
+                        \item СРВ{л-п} - между локтевым сгибом и нижней третью плеча.
+                        \item СРВ{з-п} - между запястьем и нижней третью плеча.
+                    \end{itemize}
+                    \newpage
+
+                    После подстановки значений получаем результаты:
+
+                    \begin{itemize}
+                        \item СРВ{з-л} $\approx$ 30 м/с.
+                        \item СРВ{л-п} $\approx$ 10 м/с.
+                        \item СРВ{з-п} $\approx$ 48 м/с.
+                    \end{itemize}
+
+                    Порядок величин совпадает с истинными значениями.
+
+    \addcontentsline{toc}{section}{Выводы}
+    \section*{Выводы}
+
+        \hspace*{4mm} В данной работе был проведён ряд стимуляций нейро-мышечного волокна. С помощью параметров
+        ответных сигналов были вычислены скорости распространения возбуждения волокна в разных частях руки, которые
+        согласуются с известными результатами.
 
 
 

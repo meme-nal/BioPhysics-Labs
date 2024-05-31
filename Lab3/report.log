@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.24)  31 MAY 2024 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.24)  31 MAY 2024 22:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,9 +545,14 @@ Package babel Info: Importing font and identification data for russian
 ) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+\everycr=\toks40
+\minrowclearance=\skip52
+\rownum=\count292
 ) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count292
+\l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box65
 ) (./report.aux
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 5.
@@ -556,76 +561,52 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count293
+\scratchcounter=\count294
 \scratchdimen=\dimen266
 \scratchbox=\box66
-\nofMPsegments=\count294
-\nofMParguments=\count295
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count296
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count297
 \MPscratchDim=\dimen267
-\MPnumerator=\count297
-\makeMPintoPDFobject=\count298
-\everyMPtoPDFconversion=\toks41
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks42
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/share/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 17.
+ on input line 23.
 
-LaTeX Info: Redefining \th on input line 17.
+LaTeX Info: Redefining \th on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
+(Font)              <6> on input line 25.
 (./report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
@@ -641,49 +622,66 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <data/Нейрон.png, id=21, 505.89pt x 328.22626pt>
 File: data/Нейрон.png Graphic file (type png)
 <use data/Нейрон.png>
-Package pdftex.def Info: data/Нейрон.png  used on input line 77.
+Package pdftex.def Info: data/Нейрон.png  used on input line 83.
 (pdftex.def)             Requested size: 345.0pt x 223.84198pt.
  [3 <./data/Нейрон.png>]
 <data/Синапс.png, id=27, 431.36156pt x 286.82156pt>
 File: data/Синапс.png Graphic file (type png)
 <use data/Синапс.png>
-Package pdftex.def Info: data/Синапс.png  used on input line 113.
+Package pdftex.def Info: data/Синапс.png  used on input line 119.
 (pdftex.def)             Requested size: 345.0pt x 229.40503pt.
  [4 <./data/Синапс.png>]
-Overfull \hbox (14.32811pt too wide) in paragraph at lines 150--151
+Overfull \hbox (14.32811pt too wide) in paragraph at lines 156--157
 []\T2A/cmr/m/it/10 ������������� ����-��\T2A/cmr/m/n/10 , ��-���-��-�-��� ��-��-���-��-��� ��-���-�� ���. 
  []
 
 <data/Глиальная клетка.png, id=32, 624.08156pt x 160.34906pt>
 File: data/Глиальная клетка.png Graphic file (type png)
 <use data/Глиальная клетка.png>
-Package pdftex.def Info: data/Глиальная клетка.png  used on input line 164.
+Package pdftex.def Info: data/Глиальная клетка.png  used on input line 170.
 (pdftex.def)             Requested size: 345.0pt x 88.6449pt.
 [5 <./data/Глиальная клетка.png>] [6]
 <data/Потенциал действия.png, id=41, 435.87843pt x 393.72093pt>
 File: data/Потенциал действия.png Graphic file (type png)
 <use data/Потенциал действия.png>
-Package pdftex.def Info: data/Потенциал действия.png  used on input line 224.
+Package pdftex.def Info: data/Потенциал действия.png  used on input line 230.
 (pdftex.def)             Requested size: 345.0pt x 311.63089pt.
- [7 <./data/Потенциал действия.png>] [8] (./report.aux)
+ [7 <./data/Потенциал действия.png>]
+<data/1,2.jpg, id=47, 2409.0pt x 940.51375pt>
+File: data/1,2.jpg Graphic file (type jpg)
+<use data/1,2.jpg>
+Package pdftex.def Info: data/1,2.jpg  used on input line 260.
+(pdftex.def)             Requested size: 345.0pt x 134.68475pt.
+ [8 <./data/1,2.jpg>]
+File: data/1,2.jpg Graphic file (type jpg)
+<use data/1,2.jpg>
+Package pdftex.def Info: data/1,2.jpg  used on input line 282.
+(pdftex.def)             Requested size: 345.0pt x 134.68475pt.
+ [9]
+<data/3.jpg, id=54, 2409.0pt x 991.705pt>
+File: data/3.jpg Graphic file (type jpg)
+<use data/3.jpg>
+Package pdftex.def Info: data/3.jpg  used on input line 304.
+(pdftex.def)             Requested size: 345.0pt x 142.0155pt.
+ [10 <./data/3.jpg>] [11] (./report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 24807 strings out of 475550
- 643358 string characters out of 5785873
- 1932187 words of memory out of 5000000
- 46513 multiletter control sequences out of 15000+600000
+ 24343 strings out of 475550
+ 634403 string characters out of 5785873
+ 1933187 words of memory out of 5000000
+ 46077 multiletter control sequences out of 15000+600000
  569332 words of font info for 56 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 84i,6n,93p,759b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on report.pdf (8 pages, 792172 bytes).
+ 84i,7n,93p,759b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on report.pdf (11 pages, 1782035 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
